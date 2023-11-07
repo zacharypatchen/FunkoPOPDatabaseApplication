@@ -50,9 +50,19 @@
         android:id="@+id/search_view"
         android:layout_width="319dp"
         android:layout_height="97dp"
-        android:layout_marginTop="27dp"
-        android:layout_marginEnd="46dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="44dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/update_button" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="160dp"
+        android:layout_marginBottom="5dp"
+        android:text="search by name"
+        app:layout_constraintBottom_toTopOf="@+id/search_view"
+        app:layout_constraintEnd_toEndOf="parent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
